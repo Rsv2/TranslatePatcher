@@ -1,0 +1,29 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>net7.0-windows</TargetFramework>
+    <Nullable>enable</Nullable>
+    <UseWPF>true</UseWPF>
+    <Platforms>AnyCPU;x86</Platforms>
+    <ApplicationIcon>icon.ico</ApplicationIcon>
+    <Authors>Автор</Authors>
+    <Company>Компания</Company>
+    <Product>Название русификатора</Product>
+    <Title>Отображаемое название вверху окна.</Title>
+    <PackageId>Русификатор.</PackageId>
+    <Description>Описание русификатора</Description>
+    <AssemblyName>Название русификатора</AssemblyName>
+    <PackageIcon>icon.png</PackageIcon>
+  </PropertyGroup>
+  
+  <ItemGroup>
+	  <None Remove="Title.png" />
+  </ItemGroup>
+
+  <ItemGroup>
+	<Resource Include="Title.png">
+		<CopyToOutputDirectory>Always</CopyToOutputDirectory>
+	</Resource>
+  </ItemGroup>
+</Project>
