@@ -5,3 +5,5 @@
 RPGMakerDecrypter
 https://github.com/uuksu
 https://github.com/uuksu/RPGMakerDecrypter/tree/master/RPGMakerDecrypter.Decrypter
+
+[![Видео](http://img.youtube.com/vi/dMS2w4obCXw/0.jpg)](https://youtu.be/dMS2w4obCXw)
