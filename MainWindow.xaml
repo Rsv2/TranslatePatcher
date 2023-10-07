@@ -5,15 +5,7 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:VXAceTransInstaller"
         mc:Ignorable="d" 
-<<<<<<< HEAD
-<<<<<<< HEAD
         Title="{Binding Version}"
-=======
-        Title="Русификатор"
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
-=======
-        Title="Русификатор"
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
         Background="{DynamicResource winColor}"
         MaxHeight="510"
         MaxWidth="640"

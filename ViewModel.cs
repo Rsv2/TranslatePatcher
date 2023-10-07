@@ -2,16 +2,7 @@ using Microsoft.Win32;
 using System;
 using System.Collections.Generic;
 using System.IO;
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
 using System.Reflection;
-=======
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
-=======
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
-=======
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
 using System.Text;
 using System.Windows;
 using System.Windows.Resources;
@@ -57,19 +48,10 @@ public class ViewModel
             "Title=(Название игры)\r\n" +
             "RTP=RPGVXAce\r\n" +
             "Description=(no description)\r\n";
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
     /// <summary>
     /// Название и версия русификатора для вывода в верхней строке.
     /// </summary>
     public string Version {  get; set; }
-=======
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
-=======
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
-=======
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
 
     /// <summary>
     /// Конструктор.
@@ -77,16 +59,7 @@ public class ViewModel
     /// <param name="win">Текущее окно</param>
     public ViewModel(Window win)
     {
-<<<<<<< HEAD
-<<<<<<< HEAD
-<<<<<<< HEAD
         Version = $"{Assembly.GetExecutingAssembly().GetName().Name} v. {Assembly.GetExecutingAssembly().GetName().Version}";
-=======
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
-=======
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
-=======
->>>>>>> 80de650c64bf60ca9ec76becb93ec6a7e63e1f23
         StartCodeTable = new byte[] {  };
         MidCodeTable = new byte[] {  };
         Win = win;
