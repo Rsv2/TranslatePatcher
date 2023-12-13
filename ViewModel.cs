@@ -98,7 +98,7 @@ public class ViewModel
                 {
                     // Сообщение об ошибке, типа - "Требуется архивированная версия игры\r\n\"(Название игры)\" v. (версия)"
                     // Error message, something like - "Required packed type of game, version... etc."
-                    MessageBox.Show("Требуется архивированная версия игры\r\n\"Корпорация Справедливость\" v. 1.04");
+                    MessageBox.Show("Требуется архивированная версия игры\r\n\"(Название игры)\" v. (версия)");
                 }
             }
         }
